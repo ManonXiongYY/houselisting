@@ -1,0 +1,25 @@
+body {
+  position: relative;
+}
+
+/* header container */
+.navigation-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 999;
+  top: 0px;
+  left: 0px;
+  height: 68px;
+  width: 100%;
+  padding: 0px 8px 0px 0px;
+  background-color: #002349;
+}
+
+/* header items */
+.header-item {
+  color: #FFFFFF;
+  padding: 8px 6px;
+  font-size: large;
+}
